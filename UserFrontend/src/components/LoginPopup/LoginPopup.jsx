@@ -34,7 +34,7 @@ const LoginPopup = ({ setShowLogin, url, setToken }) => {
         setCurState("Log In");
       } else {  
           if (response.data.isAdmin) {
-            window.location.href = "http://localhost:5174"; // redirect to admin frontend
+            window.location.href = "https://sereneadmin.onrender.com/"; // redirect to admin frontend
           } else {
             setToken(response.data.token);
             localStorage.setItem("token", response.data.token);

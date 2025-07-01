@@ -8,7 +8,7 @@ const Navbar = () => {
 
   const handleLogout = () => {
     localStorage.removeItem("admin_token"); // optional cleanup
-    window.location.href = "http://localhost:5173"; // redirect to user site
+    window.location.href = "https://sereneuser.onrender.com/"; // redirect to user site
   };
 
   return (

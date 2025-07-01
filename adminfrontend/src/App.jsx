@@ -8,7 +8,7 @@ import Orders from './screens/Orders/Orders';
 import Dashboard from './screens/Dashboard/Dashboard';
 import { ToastContainer, toast } from 'react-toastify';
 
-const url=' http://localhost:4000';
+const url='https://serenebackend.onrender.com/';
 
 const App = () => {
   return (

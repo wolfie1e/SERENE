@@ -11,7 +11,7 @@
 
 
 .ing-hero {
-  background-image: url('src/assets/i.jpeg');
+  background-image: url('/i.jpeg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

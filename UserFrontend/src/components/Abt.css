@@ -9,7 +9,7 @@
 }
 
 .abt-top {
-  background-image: url('src/assets/story.jpg');
+  background-image: url('/story.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

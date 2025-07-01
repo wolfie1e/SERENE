@@ -4,10 +4,11 @@ SERENE
 
 SERENE is a modern full-stack e-commerce application built for selling haircare products. It offers seamless product browsing, secure authentication, real-time order tracking, admin controls, Stripe integration, and a beautiful responsive UI.
 
-Use:
-ADMIN_EMAIL=admin@example.com
-ADMIN_PASSWORD=adminpass123
-to login as an admin
+Use this to login as an admin:
+ADMIN_EMAIL=admin@serene.com
+
+ADMIN_PASSWORD=secure123
+
 
 🌐 Live URLs
 

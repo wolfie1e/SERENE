@@ -2,8 +2,6 @@
 import argon from './argon.jpg'
 import c1 from './c1.jpeg'
 import coco from './coco.jpg'
-import home from './home.jpg'
-import i from './i.jpeg'
 import image from './image.png'
 import jour from './jour.jpg'
 import kera from './kera.jpeg'
@@ -15,7 +13,6 @@ import s2 from './s2.jpeg'
 import sham from './sham.jpg'
 import she from './she.jpeg'
 import shea from './shea.jpg'
-import story from './story.jpg'
 import shamp from './shamp.jpg'
 import mask1 from './mask1.jpg'
 import oil1 from './oil1.jpg'
@@ -33,8 +30,6 @@ export const assets = {
     argon,
     c1,
     coco,
-    home,
-    i,
     smile,
     image,
     jour,
@@ -50,7 +45,6 @@ export const assets = {
     shampo,
     she,
     shea,
-    story,
     shamp,
     minus,
     add,

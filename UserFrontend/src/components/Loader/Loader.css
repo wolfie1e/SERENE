@@ -1,0 +1,19 @@
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #fff;
+  position: relative;
+  z-index: 0; /* Confetti and message will be above this */
+}
+
+.spinner {
+  width: 60px;
+  height: 60px;
+  border: 6px solid #f3f3f3;
+  border-top: 6px solid #d1b897;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}

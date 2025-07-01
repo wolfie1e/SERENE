@@ -1,0 +1,162 @@
+.place-order {
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px 5vw;
+    font-family: 'Playfair Display', serif;
+    background-color: #fffaf5;
+    color: #333;
+    gap: 40px;
+}
+.back-to-cart-btn {
+    align-self: flex-start;
+    background-color: transparent;
+    border: none;
+    color: rgb(208, 144, 60);
+    font-family:'Playfair Display', serif ;
+    font-size: 23px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    transition: color 0.3s;
+}
+
+.back-to-cart-btn:hover {
+    color: #c66969;
+    text-decoration: underline;
+}
+
+
+.place-order-left {
+    flex: 1;
+    min-width: 320px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.place-order-left .title {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.place-order-left input {
+    padding: 12px 15px;
+    border: 1.5px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #fff;
+    transition: 0.2s;
+    width: 100%;
+}
+
+.place-order-left input:focus {
+    border-color:  rgb(208, 144, 60);
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 182, 193, 0.4);
+}
+
+.multi-fields {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.multi-fields input {
+    flex: 1;
+    min-width: 120px;
+}
+
+.place-order-right {
+    flex: 1;
+    min-width: 280px;
+    max-width: 400px;
+    background: #fff;
+    border: 1px solid #f1dcdc;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(237, 178, 178, 0.2);
+}
+
+.cart-total h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.cart-total-details {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #eee;
+    margin: 10px 0;
+}
+
+.cart-total button {
+    width: 100%;
+    margin-top: 20px;
+    background-color:burlywood ;
+    color: white;
+    font-family:'Playfair Display', serif;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cart-total button:hover {
+    background-color:  rgb(208, 144, 60);
+}
+
+
+
+@media (max-width: 768px) {
+    .place-order {
+        flex-direction: column;
+        padding: 20px 5vw;
+        gap: 30px;
+    }
+
+    .place-order-left,
+    .place-order-right {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .multi-fields {
+        flex-direction: column;
+    }
+
+    .multi-fields input {
+        min-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .place-order-left .title {
+        font-size: 22px;
+    }
+
+    .cart-total h2 {
+        font-size: 20px;
+    }
+
+    .cart-total-details {
+        font-size: 14px;
+    }
+
+    .cart-total button {
+        padding: 10px;
+        font-size: 15px;
+    }
+}

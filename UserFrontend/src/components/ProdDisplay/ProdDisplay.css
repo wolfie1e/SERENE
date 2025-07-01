@@ -1,0 +1,46 @@
+
+
+.p-display{
+    margin-top: 30px;
+}
+.p-display h2{
+    font-size: max(2vw,24px);
+    font-weight: 600;
+}
+.p-display-list{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 30px;
+    gap: 30px;
+    row-gap: 50px;
+    max-width:1000px;
+    
+    
+}
+
+@media(max-width:1300px){
+    .p-display-list{
+
+    grid-template-columns: repeat(3,1fr);
+  
+    max-width:1000px;
+    
+}
+}
+
+@media(max-width:1090px){
+    .p-display-list{
+    grid-template-columns: repeat(2,1fr);
+    max-width:1000px;
+    
+}
+}
+
+@media(max-width:650px){
+    .p-display-list{
+    grid-template-columns: repeat(1,1fr);
+    max-width:1000px;
+    
+}
+}
+

@@ -1,0 +1,119 @@
+.add-page {
+  padding: 40px 20px;
+  font-family: 'Montserrat', sans-serif;
+  max-width: 600px;
+  margin: auto;
+  color: #333;
+}
+
+.add-page h2 {
+  font-family: 'Playfair Display', serif;
+  color:rgb(135, 87, 25);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.add-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.add-form label {
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.add-form input,
+.add-form textarea,
+.add-form select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: #fff;
+  width: 100%;
+}
+
+.add-form textarea {
+  resize: none;
+}
+
+.add-form button {
+  margin-top: 10px;
+  padding: 12px;
+  background-color: burlywood;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.add-form button:hover {
+  background-color: rgb(207, 156, 90);
+}
+
+.drag-drop-box {
+  border: 2px dashed burlywood;
+  border-radius: 8px;
+  padding: 30px;
+  text-align: center;
+  color: #888;
+  background-color: rgb(238, 227, 213);
+  cursor: pointer;
+  transition: 0.3s ease;
+  min-height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.drag-drop-box.dragging {
+  border-color: rgb(185, 145, 92);
+  background-color: rgb(226, 206, 180);
+}
+
+.drag-drop-box img {
+  max-width: 100%;
+  max-height: 150px;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .add-page {
+    padding: 30px 16px;
+  }
+
+  .add-form {
+    gap: 14px;
+  }
+
+  .drag-drop-box {
+    padding: 20px;
+    min-height: 120px;
+  }
+
+  .add-form button {
+    font-size: 15px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .add-page h2 {
+    font-size: 1.4rem;
+  }
+
+  .add-form input,
+  .add-form textarea,
+  .add-form select {
+    font-size: 13px;
+  }
+
+  .drag-drop-box {
+    padding: 15px;
+  }
+}

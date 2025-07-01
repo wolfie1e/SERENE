@@ -1,0 +1,38 @@
+.sidebar {
+  width: 220px;
+  padding: 30px 20px;
+  background-color: #ffffff;
+  border-right: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sidebar-link {
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  color: rgb(163, 109, 40);
+  transition: background 0.3s;
+}
+
+.sidebar-link:hover,
+.sidebar-link.active {
+  background-color: rgb(229, 213, 191);
+  font-weight: 600;
+}
+
+
+@media (max-width: 600px) {
+  .sidebar{
+    width: 110px;
+    padding: 20px 20px;
+  }
+  .sidebar-link {
+  padding: 12px 12x;
+  font-size: 14px;
+  border-radius: 4px;
+  color: #4a4e69;
+  transition: background 0.3s;
+}
+}

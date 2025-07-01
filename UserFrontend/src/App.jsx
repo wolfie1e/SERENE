@@ -22,7 +22,7 @@ const App = () => {
   const [token, setToken] = useState(localStorage.getItem("token") || "");
   const [prod_list, setProdList] = useState([]);
 
-  const url = "https://serenebackend.onrender.com/";
+  const url = "https://serenebackend.onrender.com";
 
   const addToCart = async (itemId) => {
     setCartItems((prev) => ({
